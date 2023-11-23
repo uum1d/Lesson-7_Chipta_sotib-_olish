@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+           <div class="box-1">
+            <input type="text" placeholder="First name" id="first_name">
+            <input type="text" placeholder="Last name" id="last_name">
+            <select id="select">
+                <option value="Uz-En">UZ-EN</option>
+                <option value="Uz-Ru">UZ-RU</option>
+                <option value="Uz-Ir">UZ-IR</option>
+            </select>
+            <input type="text" placeholder="Price" id="price">
+            <button onclick="buyTicket()">Buy</button>
+           </div>
+           <div class="box-2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fist name</th>
+                        <th>Last name</th>
+                        <th>Match</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="tr">
+    
+                </tbody>
+            </table>
+           </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
